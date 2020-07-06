@@ -15,7 +15,7 @@
 
 </head>
 
-<body id="id1" background=''>
+<body id="id1">
   <script type="text/javascript">
     var arr = ['12.jpg', '3.jpg', '14.jpg', '13.jpg', '7.jpg', '5.jpg', '6.jpg', '1.jpg', '10.jpg', '4.jpg', '8.jpg', '9.jpg', '11.jpg'];
     var x = Math.floor(Math.random() * 13);
@@ -24,25 +24,27 @@
 
     document.body.background = final;
   </script>
-  <nav class="navbar sidebar-collapsed navbar-expand-lg">
-    <a class="navbar-brand" style="color: white;" href="#"><img src="White Transparent.png" width="100" height="100" alt="" loading="lazy"></a>
-    <button style="outline: unset;" id="btncol" class="navbar-toggler ml-auto hidden-sm-up float-xs-right" style="float:right;" type="button" data-toggle="collapse"
-      data-target="#navbarSupportedContent">
+  <nav class="navbar sidebar-collapsed navbar-expand-lg ">
+    <a id="logo" class="navbar-brand" style="color: white;" href="#"><img src="White Transparent.png" width="100"
+        height="100" alt="" loading="lazy"></a>
+    <button style="outline: unset;" id="btncol" class="navbar-toggler ml-auto hidden-sm-up float-xs-right"
+      style="float:right;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
       <i style="color: white;" class="fa fa-bars"></i>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto ">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About US</a></li>
-        <li class="nav-item"><a class="nav-link" href="Gallery2.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Placements</a></li>
       </ul>
     </div>
   </nav>
   <div style="text-align: center; color: white; padding-bottom: 10%; padding-top: 5%;">
     <h1 id="greet" style="font-size: 100px; font-family: Sofia;">Hello, world!</h1>
-    <p style="font-family: Alice; font-size: 30px; padding-top: 10px;" id="quote" >"Everybody in this country should <br>learn how to program a
+    <p style="font-family: Alice; font-size: 30px; padding-top: 10px;" id="quote">"Everybody in this country should
+      <br>learn how to program a
       computer...<br>because it teaches you how to think."<br> -Steve Jobs</p>
 
   </div>
@@ -52,26 +54,23 @@
       var ar = ['Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn.<br> -Stephen Hawking', "Everybody in this country should <br>learn how to program a computer...<br>because it teaches you how to think.<br> -Steve Jobs", "People can be really smart or have skills that are directly applicable, but if they don't really believe in it, then they are not going to really work hard.<br> -Mark Zukerberg", "On my business card, I am a corporate president. In my mind,<br> I am a game developer. But in my heart, I am a gamer.<br> -Satoru Iwata", "My number one piece of advice is: you should learn how to program.<br> -Mark Zukerberg", "The best investment you can make, is an investment in yourself...<br> The more you learn, the more you'll earn.<br> -Warren Buffett", "Coding is today's language of creativity. All our children<br>deserve a chance to become creators instead consumers of computer science.<br> -Maria Klawe", "Al is probably the most important thing humanity has ever worked on.<br> -Sundar Pichai", "People work better when they know what the goal is and why. It is important that people look forward to coming to work in the morning and enjoy working.<br> -Elon Musk", "Talk is cheap,<br>show me the code<br> -Linus Torvalds", "I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12.<br> -Elon musk"]
       var y = Math.floor(Math.random() * 11);
       document.getElementById("quote").innerHTML = ar[y];
-      var today=new Date();
-      var time=today.getHours();
-      var grt="";
-      var gr=["Good Morning!","Good Noon!","Good Evening!","Hello World!"]
-      if(time<5)
-      {
-        grt=gr[3];
+      var today = new Date();
+      var time = today.getHours();
+      var grt = "";
+      var gr = ["Good Morning!", "Good Noon!", "Good Evening!", "Hello World!"]
+      if (time < 5) {
+        grt = gr[3];
       }
-      else if(time<12)
-      {
-        grt=gr[0];
+      else if (time < 12) {
+        grt = gr[0];
       }
-      else if(time<17)
-      {
-        grt=gr[1];
+      else if (time < 17) {
+        grt = gr[1];
       }
-      else{
-        grt=gr[2];
+      else {
+        grt = gr[2];
       }
-      document.getElementById("greet").innerHTML=grt;
+      document.getElementById("greet").innerHTML = grt;
     </script>
 
 
@@ -95,7 +94,7 @@
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland
                 kickstarter tumblr live-edge tilde.</p>
-              
+
             </div>
           </div>
           <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
@@ -113,7 +112,7 @@
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland
                 kickstarter tumblr live-edge tilde.</p>
-              </div>
+            </div>
           </div>
           <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex">
             <div
@@ -129,7 +128,7 @@
               <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland
                 kickstarter tumblr live-edge tilde.</p>
-             
+
             </div>
           </div>
         </div>
@@ -149,7 +148,7 @@
         </div>
         <div class="flex flex-wrap -m-4">
           <div class=" w-full xl:w-1/4 lg:w-1/4 md:w-1/2 sm:w-1/1 p-4 ">
-            <div class="bg-white p-6 rounded-lg " >
+            <div class="bg-white p-6 rounded-lg ">
               <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400"
                 alt="content">
               <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
@@ -184,13 +183,14 @@
                 alt="content">
               <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
-              <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+              <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery
+                hexagon disrupt edison bulbche.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+<div class="title123">
     <section class="text-white body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
@@ -203,8 +203,8 @@
                 <h1 class="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
                 <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                   microdosing tousled waistcoat.</p>
-               
-               
+
+
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@
                 <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
                 <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                   microdosing tousled waistcoat.</p>
-                
+
               </div>
             </div>
           </div>
@@ -230,64 +230,238 @@
                 <h1 class="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
                 <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
                   microdosing tousled waistcoat.</p>
-                
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+  </div>
+    <div class="title12">
+    <div class="container">
+      <div id="demo" class="carousel slide my-3" data-ride="carousel">
+        <!--Slideshow starts here -->
+        <div class="container carousel-inner no-padding">
 
-    <footer class="text-gray-700 body-font">
-      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <div class="carousel-item active">
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
 
-          <span class="ml-3 text-xl" style="color: white;">Contact Us</span>
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="carousel-item">
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3 col-sm-3 col-md-3">
+              <div class="card" >
+                <img src='https://source.unsplash.com/random' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
         </a>
-        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
-          style="color: white;">© 2020 TIT&S Computer Society
-        </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a class="text-gray-500" href="https://www.facebook.com/tcstit" style="color: white;">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-              viewBox="0 0 24 24">
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-            </svg>
-          </a>
-
-          <a class="ml-3 text-gray-500" href="https://www.instagram.com/tcs_society/" style="color: white;">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-5 h-5" viewBox="0 0 24 24">
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500" style="color: white;"
-            href="https://www.linkedin.com/company/t-i-t-s-computer-society">
-            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-              <path stroke="none"
-                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-              <circle cx="4" cy="4" r="2" stroke="none"></circle>
-            </svg>
-          </a>
-        </span>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
-    </footer>
-    <script src="./jquery.3.2.1.min.js"></script>
-    <script src="./popper.min.js"></script>
-    <script src="./bootstrap.min.js"></script>
+    </div>
+    </div>
+
+
+      <!-- left and right controls for the slide -->
+     
+
+
+      <footer class="text-gray-700 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+
+            <span class="ml-3 text-xl" style="color: white;">Contact Us</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+            style="color: white;">© 2020 TIT&S Computer Society
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500" href="https://www.facebook.com/tcstit" style="color: white;">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+
+            <a class="ml-3 text-gray-500" href="https://www.instagram.com/tcs_society/" style="color: white;">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500" style="color: white;"
+              href="https://www.linkedin.com/company/t-i-t-s-computer-society">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none"
+                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+      <script src="./jquery.3.2.1.min.js"></script>
+      <script src="./popper.min.js"></script>
+      <script src="./bootstrap.min.js"></script>
 </body>
 <script>
-  var typed = new Typed('#typed',{
-                 strings:["You can do anything with your text here!","Enter your text here and let Text Utils do the magic!"],
-                 backSpeed: 15,
-                 smartBackspace: true,
-                 backDelay: 1200,
-                 startDelay: 1000,
-                 typeSpeed: 80,
-                 loop: false,
+  var typed = new Typed('#typed', {
+    strings: ["You can do anything with your text here!", "Enter your text here and let Text Utils do the magic!"],
+    backSpeed: 15,
+    smartBackspace: true,
+    backDelay: 1200,
+    startDelay: 1000,
+    typeSpeed: 80,
+    loop: false,
 
-               });
- </script>
+  });
+</script>
+
 </html>

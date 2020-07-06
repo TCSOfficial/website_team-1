@@ -24,5 +24,61 @@ li.nav-item>a.nav-link:hover {
   
   
 }
+/* body{
+  font-family: 'Open Sans', sans-serif;
+} */
 
-/* css file */
+#logo:hover
+{
+  transform: scale(1.25)
+}
+
+.col-md-3
+{
+display: inline-block;
+margin-left:-4px;
+}
+.carousel-indicators .active {
+background-color: blue;
+  }
+.col-md-3 img{
+width:100%;
+height:auto;
+}
+body .carousel-indicator li{
+background-color: blue;
+}
+body .carousel-indicators{
+bottom: 0;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+background-color: blue;
+}
+ body .no-padding{
+ padding-left: 0;
+ padding-right: 0;
+ }
+
+
+
+ @media screen and (max-width: 800px) {
+  .title12 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+@media screen and (min-width: 800px ) {
+  .title123 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
