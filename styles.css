@@ -64,7 +64,7 @@ background-color: blue;
 
 
 
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
   .title12 {
     visibility: hidden;
     clear: both;
@@ -74,7 +74,7 @@ background-color: blue;
     display: none;
   }
 }
-@media screen and (min-width: 800px ) {
+@media screen and (min-width: 768px ) {
   .title123 {
     visibility: hidden;
     clear: both;
