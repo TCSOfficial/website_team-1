@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+    background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no repeat;
+	height: auto;
+    font-family: 'oswald';    
+
+}
+img{
+    margin: 0px auto;
+    display: block;
+    width:10%;
+    height: 5%;
+    opacity: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-transform: scale(0.9 ,0.9);
+    transform: scale(0.9 ,0.9);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+img:hover{
+    -webkit-transform: scale(1, 1) ;
+    transform: scale(1,1);
+}
+.appname h1{
+    
+	font-size: 36px;
+	font-weight: 700;
+	color: #ffffff;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+.appname p{
+    color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.endcontent h4{
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.endcontent p{
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: #999999;
+}
+@media screen and(min-width: 650px){
+    column{
+        width: 30%;
+        padding: 20px 20px;
+    }
